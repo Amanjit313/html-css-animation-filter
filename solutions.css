@@ -98,5 +98,39 @@
 }
 
 @keyframes mymove11 {
-  75% {transform: rotate(270deg);}
+  90% {transform: rotate(270deg);}
 }
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: mymove12-button-1 2s linear;
+}
+
+.ex-12-button:hover .ex-12-top-white{
+  animation: mymove12-button-2 2s linear;
+}
+
+@keyframes mymove12-button-1 {
+  0%{
+    right: 20%
+  }
+  50%{
+    right: 69%
+  }
+  100%{
+    right: 20%;
+  }
+}
+  @keyframes mymove12-button-2 {
+    0%{
+      left: 10%
+    }
+    50%{
+      left: 70%
+    }
+    100%{
+      left: 10%;
+    }
+}
+
+/* Esercizio 13 */
